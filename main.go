@@ -37,7 +37,7 @@ func (a slideSorter) Less(i, j int) bool {
 func init() {
 	flag.StringVar(&slideOriginalURL, "url", "", "Insert slide presentation URL")
 	flag.StringVar(&slideDir, "dir", "", "Directory in which all the files will be saved")
-	flag.StringVar(&pdfPath, "pdf_path", "presentation", "Path of the generated PDF")
+	flag.StringVar(&pdfPath, "pdf_path", "presentation.pdf", "Path of the generated PDF")
 }
 
 func downloadService(slideList []string) (*chan string, *sync.WaitGroup) {
