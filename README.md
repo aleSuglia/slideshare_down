@@ -17,16 +17,14 @@ If you are a developer, you need to install *gofpdf* (https://godoc.org/code.goo
 
 
 **HOW TO**
+
 First of all you need to build the source code using the standard `go build`
 
 After that you need to run the file **main.go** using `go run` specifing the suggested parameters specified in the USAGE; here there are:
 
--dir string
-	Directory in which all the files will be saved
--pdf_path string
-    Path of the generated PDF (default "presentation.pdf")
--url string
-    Insert slide presentation URL
+1. **dir** - *Directory in which all the files will be saved*;
+2. **pdf_path** - *Path of the generated PDF (default "presentation.pdf")*;
+3. **url** - *Insert slide presentation URL*.
 
 **TODO**
 
